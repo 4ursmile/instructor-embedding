@@ -1,4 +1,4 @@
-billboard_task_list = ['mscoco', 'cnn summary', 'machine translation']
+billboard_task_list = ['mscoco', 'cnndm', 'mt']
 model = 'large'
 import os
 for task in billboard_task_list:

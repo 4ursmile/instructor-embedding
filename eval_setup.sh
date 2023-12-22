@@ -1,6 +1,7 @@
 cd evaluation/MTEB
 pip install mteb
 pip install mteb[beir]
+pip install openai
 echo "Successfully installed MTEB"
 cd ../..
 cd evaluation/text_evaluation

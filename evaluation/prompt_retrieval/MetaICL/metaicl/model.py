@@ -81,7 +81,7 @@ class MetaICLModel(object):
 
     def load(self):
         model_name = self.args.model_name
-        model = AutoModelForCausalLM.from_pretrained(model_name,cache_dir=self.args.model_cache_dir)
+        model = AutoModelForCausalLM.from_pretrained(model_name)
         self.model_name = model_name
         self.model = model
 
