@@ -83,9 +83,18 @@ TASK_LIST_STS = [
     "SummEval",
 ]
 mteb_task_list = [TASK_LIST_CLASSIFICATION, TASK_LIST_CLUSTERING, TASK_LIST_PAIR_CLASSIFICATION, TASK_LIST_RERANKING, TASK_LIST_RETRIEVAL, TASK_LIST_STS]
-model = 'large'
+import argparse
 import os
-for tasks in mteb_task_list:
-  for task in tasks:
-    os.system(f'./eval.sh {model} {task}')
-    print('\n')
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--model', default='large', type=str)
+
+if __name__ == '__main__':
+    args = parser.parse_args()
+    model = args
+    if model not in ['base', 'large', 'xl']:
+        raise ValueError(f'Invalid model: {model}. model must be one of [base, large, xl]')
+    for tasks in mteb_task_list:
+        for task in tasks:
+            os.system(f'./eval.sh {model} {task}')
+            print('\n')
