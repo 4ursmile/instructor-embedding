@@ -93,7 +93,7 @@ parser.add_argument('--task', default='all', choices=['all', 'classification', '
 mteb_task_dic = {choice_list[i]: mteb_task_list[i] for i in range(len(choice_list))}
 if __name__ == '__main__':
     args = parser.parse_args()
-    model = args
+    model = args.model
     if model not in ['base', 'large', 'xl']:
         raise ValueError(f'Invalid model: {model}. model must be one of [base, large, xl]')
     if args.task == 'all':
