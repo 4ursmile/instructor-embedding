@@ -2,6 +2,7 @@ cd evaluation/MTEB
 pip install mteb
 pip install mteb[beir]
 pip install openai
+git clone https://huggingface.co/EleutherAI/gpt-j-6b
 echo "Successfully installed MTEB"
 cd ../..
 cd evaluation/text_evaluation
