@@ -1,4 +1,4 @@
-promt_retrieval_task_list = ['rte','sst5','mrpc','dbpedia_14','hellaswag']
+promt_retrieval_task_list = ['rte','sst5','mrpc','dbpedia_14']
 import argparse
 import os
 

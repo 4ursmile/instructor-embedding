@@ -3,34 +3,19 @@ TASK_LIST_CLASSIFICATION = [
     "AmazonPolarityClassification",
     "AmazonReviewsClassification",
     "Banking77Classification",
-    "EmotionClassification",
-    "ImdbClassification",
-    "MassiveIntentClassification",
-    "MassiveScenarioClassification",
-    "MTOPDomainClassification",
-    "MTOPIntentClassification",
-    "ToxicConversationsClassification",
-    "TweetSentimentExtractionClassification",
+    "EmotionClassification"
 ]
 
 TASK_LIST_CLUSTERING = [
     "ArxivClusteringP2P",
-    "ArxivClusteringS2S",
-    "BiorxivClusteringP2P",
     "BiorxivClusteringS2S",
-    "MedrxivClusteringP2P",
     "MedrxivClusteringS2S",
-    "RedditClustering",
-    "RedditClusteringP2P",
-    "StackExchangeClustering",
-    "StackExchangeClusteringP2P",
-    "TwentyNewsgroupsClustering",
+    "RedditClustering"
 ]
 
 TASK_LIST_PAIR_CLASSIFICATION = [
     "SprintDuplicateQuestions",
-    "TwitterSemEval2015",
-    "TwitterURLCorpus",
+    "TwitterSemEval2015"
 ]
 
 TASK_LIST_RERANKING = [
@@ -42,31 +27,11 @@ TASK_LIST_RERANKING = [
 
 TASK_LIST_RETRIEVAL = [
     "ArguAna",
-    "ClimateFEVER",
-    "CQADupstackAndroidRetrieval",
-    "CQADupstackEnglishRetrieval",
-    "CQADupstackGamingRetrieval",
-    "CQADupstackGisRetrieval",
-    "CQADupstackMathematicaRetrieval",
-    "CQADupstackPhysicsRetrieval",
-    "CQADupstackProgrammersRetrieval",
-    "CQADupstackStatsRetrieval",
-    "CQADupstackTexRetrieval",
-    "CQADupstackUnixRetrieval",
     "CQADupstackWebmastersRetrieval",
-    "CQADupstackWordpressRetrieval",
-    "DBPedia",
     "FEVER",
-    "FiQA2018",
     "HotpotQA",
-    "MSMARCO",
     "NFCorpus",
-    "NQ",
-    "QuoraRetrieval",
-    "SCIDOCS",
-    "SciFact",
-    "Touche2020",
-    "TRECCOVID",
+    "SciFact"
 ]
 
 TASK_LIST_STS = [
@@ -77,10 +42,7 @@ TASK_LIST_STS = [
     "STS14",
     "STS15",
     "STS16",
-    "STS17",
-    "STS22",
     "STSBenchmark",
-    "SummEval",
 ]
 choice_list = ['classification', 'clustering', 'pair_classification', 'reranking', 'retrieval', 'sts']
 mteb_task_list = [TASK_LIST_CLASSIFICATION, TASK_LIST_CLUSTERING, TASK_LIST_PAIR_CLASSIFICATION, TASK_LIST_RERANKING, TASK_LIST_RETRIEVAL, TASK_LIST_STS]
