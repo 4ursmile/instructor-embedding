@@ -4,6 +4,9 @@ This repository contains the code and pre-trained models for our paper [One Embe
 
 We introduce **Instructor**👨‍🏫, an instruction-finetuned text embedding model that can generate text embeddings tailored to any task (e.g., classification, retrieval, clustering, text evaluation, etc.) and domains (e.g., science, finance, etc.) ***by simply providing the task instruction, without any finetuning***. Instructor👨‍ achieves sota on 70 diverse embedding tasks!
 
+### **Notebooks for evaluation**
+* [Notebook](./notebook/InstructorsEmbedding.ipynb) 
+
 **************************** **Updates** ****************************
 
 * 01/21: We updated the code structure, which supports easy package installation.
@@ -13,6 +16,7 @@ We introduce **Instructor**👨‍🏫, an instruction-finetuned text embedding 
 ## Quick Links
 
 - [One Embedder, Any Task: Instruction-Finetuned Text Embeddings](#one-embedder-any-task-instruction-finetuned-text-embeddings)
+    - [**Notebooks for evaluation**](#notebooks-for-evaluation)
   - [Quick Links](#quick-links)
   - [Installation](#installation)
     - [Environment setup](#environment-setup)
